@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Valky';
+    src: url('Valky.eot');
+    src: local('☺'), url('Valky.woff') format('woff'), url('Valky.ttf') format('truetype'), url('Valky.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: local('☺'), url('Inter-Regular.woff') format('woff'), url('Inter-Regular.ttf') format('truetype'), url('Inter-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.eot');
+    src: local('☺'), url('Inter-Medium.woff') format('woff'), url('Inter-Medium.ttf') format('truetype'), url('Inter-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-SemiBold.eot');
+    src: local('☺'), url('Inter-SemiBold.woff') format('woff'), url('Inter-SemiBold.ttf') format('truetype'), url('Inter-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.eot');
+    src: local('☺'), url('Inter-Bold.woff') format('woff'), url('Inter-Bold.ttf') format('truetype'), url('Inter-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+

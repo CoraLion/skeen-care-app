@@ -1,0 +1,210 @@
+
+.fade-opacity-lazy-enter-active, .fade-opacity-lazy-leave-active {
+    transition: all .6s ease;
+}
+
+.fade-opacity-lazy-leave-active {
+    position: absolute;
+}
+
+.fade-opacity-lazy-enter-from, .fade-opacity-lazy-leave-to {
+    opacity: 0;
+}
+
+
+.fade-text-enter-active, .fade-text-leave-active {
+    transition: all .8s ease;
+}
+
+.fade-text-leave-to {
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    position: absolute;
+    opacity: 0;
+}
+
+.fade-text-enter-from{
+    transform: scaleX(0);
+    position: absolute;
+    transform-origin: bottom right;
+    opacity: 0;
+}
+
+
+.fade-translate-x-card-revert-move {
+    transition: transform .6s ease;
+}
+
+.fade-translate-x-card-revert-leave-to, .fade-translate-x-card-revert-enter-from {
+    opacity: 0;
+    transform: translateX(-300px);
+}
+
+.fade-translate-x-card-revert-enter-active {
+    transition: all .8s ease;
+}
+
+.fade-translate-x-card-revert-leave-active {
+    position: absolute;
+    transition: all .6s ease-in-out;
+    z-index: -1;
+}
+
+.fade-translate-x-card-move {
+    transition: transform .6s ease;
+}
+
+.fade-translate-x-card-leave-to, .fade-translate-x-card-enter-from {
+    opacity: 0;
+    transform: translateX(300px);
+}
+
+.fade-translate-x-card-enter-active {
+    transition: all .8s ease;
+}
+
+.fade-translate-x-card-leave-active {
+    position: absolute;
+    transition: all .6s ease-in-out;
+    z-index: -1;
+}
+
+
+.fade-translate-y-card-move {
+    transition: transform .6s ease;
+}
+
+.fade-translate-y-card-leave-to, .fade-translate-y-card-enter-from {
+    opacity: 0;
+    transform: translateY(1200px);
+}
+
+.fade-translate-y-card-enter-active {
+    transition: all .8s ease;
+}
+
+.fade-translate-y-card-leave-active {
+    position: absolute;
+    transition: all .6s ease-in-out;
+    z-index: -1;
+}
+
+
+
+.fade-translate-y-card-revert-leave-to, .fade-translate-y-card-revert-enter-from {
+    opacity: 0;
+    transform: translateY(-700px);
+}
+
+.fade-translate-y-card-revert-enter-active {
+    transition: all .8s ease;
+}
+
+.fade-translate-y-card-revert-leave-active {
+    position: absolute;
+    transition: all .6s ease-in-out;
+    z-index: -1;
+}
+
+.fade-translate-y-revert-leave-to {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-translate-y-revert-enter-active {
+    transition: all .6s ease;
+}
+
+.fade-translate-y-revert-enter-from {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-translate-y-revert-leave-active {
+    position: absolute;
+    transition: all .4s ease-in-out;
+    z-index: -1;
+}
+
+
+.fade-translate-y-move {
+    transition: transform .6s ease;
+}
+
+.fade-translate-y-leave-to {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-translate-y-enter-active {
+    transition: all .6s ease;
+}
+
+.fade-translate-y-enter-from {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.fade-translate-y-leave-active {
+    position: absolute;
+    transition: all .4s ease-in-out;
+    z-index: -1;
+}
+
+/*.fade-translate-x-move {*/
+/*    transition: transform .6s ease;*/
+/*}*/
+
+.fade-translate-x-enter-active, .fade-translate-x-leave-active {
+    transition: all .5s ease;
+}
+
+.fade-translate-x-enter-from, .fade-translate-x-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.fade-translate-x-leave-active {
+    position: absolute;
+}
+
+.fade-translate-x-revert-enter-active, .fade-translate-x-revert-leave-active {
+    transition: all .5s ease;
+}
+
+.fade-translate-x-revert-enter-from, .fade-translate-x-revert-leave-to {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.fade-translate-x-revert-leave-active {
+    position: absolute;
+}
+
+
+.fade-rotate-enter-active, .fade-rotate-leave-active {
+    transition: all .5s ease;
+}
+
+.fade-rotate-leave-to {
+    position: absolute;
+    transform: rotate(180deg);
+    opacity: 0;
+}
+
+.fade-rotate-enter-from{
+    transform: rotate(-180deg);
+    opacity: 0;
+}
+
+.fade-scale-enter-active, .fade-scale-leave-active {
+    transition: all .5s ease;
+}
+
+.fade-scale-leave-to, .fade-scale-enter-from {
+    position: absolute;
+    transform: scale(0);
+    opacity: 0;
+}
+
+
